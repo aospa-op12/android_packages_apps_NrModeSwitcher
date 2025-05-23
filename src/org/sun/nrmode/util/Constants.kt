@@ -5,10 +5,7 @@
 
 package org.sun.nrmode.util.Constants
 
-import android.os.SystemProperties
 import android.util.Log
-
-import org.sun.os.DebugConstants.DEBUG_NR_MODE
 
 const val SIM_CARD_1 = 1
 const val SIM_CARD_2 = 2
@@ -30,9 +27,7 @@ const val PROP_AUTO_MODE = "persist.sys.sun.radio.auto_nr_mode"
 const val INTENT_SIM_STATE_CHANGED_CUSTOM = "org.sun.nrmode.intent.SIM_STATE_CHANGED"
 
 fun logD(tag: String, message: String) {
-    if (DEBUG_NR_MODE) {
-        Log.d(tag, message)
-    }
+    Log.d(tag, message)
 }
 
 fun logE(tag: String, message: String) {
