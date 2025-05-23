@@ -7,9 +7,9 @@
     <!-- App name -->
     <!-- Settings title -->
     <string name="nrmode_settings_title">Select preferred 5G mode</string>
-    <!-- Sim card -->
-    <string name="sim_card_1">Sim 1</string>
-    <string name="sim_card_2">Sim 2</string>
+    <!-- SIM card -->
+    <string name="sim_card_1">SIM 1</string>
+    <string name="sim_card_2">SIM 2</string>
     <!-- NrMode options -->
     <string name="preferred_nr_mode_title">Preferred 5G mode</string>
     <string name="nr_mode_auto">Automatic (Default)</string>
@@ -19,5 +19,5 @@
     <string name="nr_mode_sa_preferred">SA preferred</string>
     <!-- Error conditions -->
     <string name="error_fail_to_set">Failed to set preferred 5G mode. Please retry or report this to developer</string>
-    <string name="error_sim_card_unavailable">Sim card is unavailable</string>
+    <string name="error_sim_card_unavailable">SIM card is unavailable</string>
 </resources>
